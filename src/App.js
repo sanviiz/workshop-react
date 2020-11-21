@@ -24,7 +24,7 @@ export default () => {
       <CounterClassComponent />
       <CounterFuctionalComponent />
       <EX1Style />
-      <EX2Image />
+      <EX2Image image="https://reactjs.org/logo-og.png" />
     </div>
   );
 };
