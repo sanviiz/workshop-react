@@ -4,6 +4,7 @@ import CounterFuctionalComponent from "./CounterFuctionalComponent";
 import EX1Style from "./components/ex1_styles";
 import EX2Image from "./components/ex2_image";
 import EX3Props from "./components/ex3_props";
+import EX4Destructuring from "./components/ex4_destructuring";
 
 export default () => {
   let var1 = 0;
@@ -27,6 +28,7 @@ export default () => {
       <EX1Style />
       <EX2Image image="https://reactjs.org/logo-og.png" />
       <EX3Props count={count} color="red" />
+      <EX4Destructuring usernameHint="Pakkaphong" passwordHint="Akkabut" />
     </div>
   );
 };
