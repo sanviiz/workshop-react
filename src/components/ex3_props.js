@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function ex3_props(props) {
   return (
@@ -8,3 +9,11 @@ export default function ex3_props(props) {
     </div>
   );
 }
+
+ex3_props.propTypes = {
+  count: PropTypes.number,
+};
+
+ex3_props.defaultProps = {
+  showLabel: true,
+};

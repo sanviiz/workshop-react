@@ -26,7 +26,7 @@ export default () => {
       <CounterFuctionalComponent />
       <EX1Style />
       <EX2Image image="https://reactjs.org/logo-og.png" />
-      <EX3Props count={count} color="red" showLabel />
+      <EX3Props count={count} color="red" />
     </div>
   );
 };
