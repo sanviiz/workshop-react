@@ -28,7 +28,13 @@ export default () => {
       <EX1Style />
       <EX2Image image="https://reactjs.org/logo-og.png" />
       <EX3Props count={count} color="red" />
-      <EX4Destructuring usernameHint="Pakkaphong" passwordHint="Akkabut" />
+      <EX4Destructuring
+        usernameHint="Pakkaphong"
+        passwordHint="Akkabut"
+        handleSubmit={() => {
+          alert("test alert!");
+        }}
+      />
     </div>
   );
 };
